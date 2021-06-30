@@ -1,0 +1,49 @@
+{
+  "name": "@xyo-network/eslint-config",
+  "homepage": "https://xyo.network",
+  "bugs": {
+    "url": "https://github.com/XYOracleNetwork/eslint-config/issues",
+    "email": "support@xyo.network"
+  },
+  "description": "ESLint Config used throughout XYO TypeScript/JavaScript libraries",
+  "author": {
+    "name": "XYO Development Team",
+    "url": "https://xyo.network",
+    "email": "support@xyo.network"
+  },
+  "license": "LGPL-3.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XYOracleNetwork/eslint-config.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "xyo",
+    "utility",
+    "typescript",
+    "eslint"
+  ],
+  "version": "2.0.1",
+  "main": "./index.js",
+  "sideEffects": false,
+  "scripts": {
+    "deploy": "yarn version --patch && yarn publish ./"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.26.1",
+    "@typescript-eslint/parser": "^4.26.1",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-json": "^3.0.0",
+    "eslint-plugin-no-secrets": "^0.8.9",
+    "eslint-plugin-prettier": "^3.2.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.1",
+    "eslint-plugin-typescript-sort-keys": "^1.6.0",
+    "prettier": "^2.3.1"
+  }
+}
