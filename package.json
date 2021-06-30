@@ -1,14 +1,14 @@
 {
-  "name": "@xyo-network/eslint-config",
+  "name": "@xylabs/eslint-config",
   "homepage": "https://github.com/xylabs/eslint-config.git",
   "bugs": {
     "url": "https://github.com/xylabs/eslint-config/issues",
     "email": "support@xylabs.com"
   },
-  "description": "ESLint Config used throughout XYO TypeScript/JavaScript libraries",
+  "description": "ESLint Config used throughout XY Labs TypeScript/JavaScript libraries and react projects",
   "author": {
-    "name": "XYO Development Team",
-    "url": "https://xyo.network",
+    "name": "XY Labs Development Team",
+    "url": "https://xylabs.com",
     "email": "support@xylabs.com"
   },
   "license": "LGPL-3.0",
