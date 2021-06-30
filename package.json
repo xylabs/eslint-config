@@ -1,27 +1,27 @@
 {
   "name": "@xyo-network/eslint-config",
-  "homepage": "https://xyo.network",
+  "homepage": "https://github.com/xylabs/eslint-config.git",
   "bugs": {
-    "url": "https://github.com/XYOracleNetwork/eslint-config/issues",
-    "email": "support@xyo.network"
+    "url": "https://github.com/xylabs/eslint-config/issues",
+    "email": "support@xylabs.com"
   },
   "description": "ESLint Config used throughout XYO TypeScript/JavaScript libraries",
   "author": {
     "name": "XYO Development Team",
     "url": "https://xyo.network",
-    "email": "support@xyo.network"
+    "email": "support@xylabs.com"
   },
   "license": "LGPL-3.0",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/XYOracleNetwork/eslint-config.git"
+    "url": "https://github.com/xylabs/eslint-config.git"
   },
   "publishConfig": {
     "access": "public"
   },
   "keywords": [
-    "xyo",
+    "xylabs",
     "utility",
     "typescript",
     "eslint"
