@@ -6,13 +6,8 @@ module.exports = {
     'import/namespace': ['warn'],
     'import/no-absolute-path': ['warn'],
     'import/no-cycle': ['off', { maxDepth: 2 }],
-    'import/no-internal-modules': [
-      'warn',
-      {
-        allow: ['**/*.jpg', '**/*.png', '**/*.svg', '**/*.gif', 'lodash/*', 'firebase/*'],
-      },
-    ],
-    'import/no-named-as-default': ['off'],
+    'import/no-internal-modules': ['warn'],
+    'import/no-named-as-default': ['warn'],
     'import/no-restricted-paths': ['warn'],
     'import/no-self-import': ['warn'],
     'import/no-useless-path-segments': ['warn'],
