@@ -7,6 +7,7 @@ module.exports = {
       'warn',
       {
         bracketSpacing: true,
+        endOfLine: 'auto',
         printWidth: 120,
         semi: false,
         singleQuote: true,
