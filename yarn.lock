@@ -308,7 +308,7 @@
     semver "^7.3.5"
     tsutils "^3.21.0"
 
-"@typescript-eslint/experimental-utils@4.29.3", "@typescript-eslint/experimental-utils@^4.29.2":
+"@typescript-eslint/experimental-utils@4.29.3":
   version "4.29.3"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-4.29.3.tgz#52e437a689ccdef73e83c5106b34240a706f15e1"
   integrity sha512-ffIvbytTVWz+3keg+Sy94FG1QeOvmV9dP2YSdLFHw/ieLXWCa3U1TYu8IRCOpMv2/SPS8XqhM1+ou1YHsdzKrg==
@@ -455,9 +455,9 @@
   integrity sha512-uwX0Qs2e6kdF+WmxwuxJxOnKs/wEkMArtYpHSm7W+VY/23Tl8syMRyjnzEeXrNCAP0/8HZxEGkHJsjPEDNRuHw==
 
 "@xylabs/eslint-config@^2.0.16":
-  version "2.0.17"
-  resolved "https://registry.yarnpkg.com/@xylabs/eslint-config/-/eslint-config-2.0.17.tgz#03b2a2c9b4e8526a190c6a34c3222f3879547509"
-  integrity sha512-Ah/o7gflxxSl+5HolVqCZz2otgPoVNZwFcWuTypDAJJTy+0eIHl1QWuVmnJYab/gMceucnH4uf3FHreJh3dTLw==
+  version "2.0.18"
+  resolved "https://registry.yarnpkg.com/@xylabs/eslint-config/-/eslint-config-2.0.18.tgz#7307ecd43dea9e328b461923882c3fec62e6137c"
+  integrity sha512-MYnd8Qhmb+hGHVUktci+T3nRq1z0Mr8wcsSLyzzFBWcSrOcRpMXsNWbMThejczyHdfc3Mnn8mXZnSZ11ZzbqMw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.29.3"
     "@typescript-eslint/parser" "^4.29.3"
@@ -472,7 +472,7 @@
     eslint-plugin-react-hooks "^4.2.0"
     eslint-plugin-simple-import-sort "^7.0.0"
     eslint-plugin-sort-keys-fix "^1.1.2"
-    eslint-plugin-typescript-sort-keys "^1.8.0"
+    eslint-plugin-typescript-sort-keys "~1.7.0"
     prettier "^2.3.2"
     typescript "~4.3.5"
 
@@ -1378,15 +1378,6 @@ eslint-plugin-sort-keys-fix@^1.1.2:
     esutils "^2.0.2"
     natural-compare "^1.4.0"
     requireindex "~1.2.0"
-
-eslint-plugin-typescript-sort-keys@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-typescript-sort-keys/-/eslint-plugin-typescript-sort-keys-1.8.0.tgz#08b5d3cbb551a9db255367f10a8f8a7b318c8f8b"
-  integrity sha512-rx8WJ08uS4dSKHKS7r1y/lRJ6DwR3AcftT7saHi3qyWlk1xM9MqCpRGg2AzESBrPcqeJRpZZHn0CO4+vvKrA9w==
-  dependencies:
-    "@typescript-eslint/experimental-utils" "^4.29.2"
-    json-schema "^0.3.0"
-    natural-compare-lite "^1.4.0"
 
 eslint-plugin-typescript-sort-keys@~1.7.0:
   version "1.7.0"
@@ -2296,11 +2287,6 @@ json-schema@^0.2.5:
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/json-schema/-/json-schema-0.2.5.tgz#97997f50972dd0500214e208c407efa4b5d7063b"
   integrity sha512-gWJOWYFrhQ8j7pVm0EM8Slr+EPVq1Phf6lvzvD/WCeqkrx/f2xBI0xOsRRS9xCn3I4vKtP519dvs3TP09r24wQ==
-
-json-schema@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/json-schema/-/json-schema-0.3.0.tgz#90a9c5054bd065422c00241851ce8d59475b701b"
-  integrity sha512-TYfxx36xfl52Rf1LU9HyWSLGPdYLL+SQ8/E/0yVyKG8wCCDaSrhPap0vEdlsZWRaS6tnKKLPGiEJGiREVC8kxQ==
 
 json-stable-stringify-without-jsonify@^1.0.1:
   version "1.0.1"

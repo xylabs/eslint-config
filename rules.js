@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-undef
 module.exports = {
   extends: ['plugin:json/recommended'],
-  plugins: ['sort-keys-fix', 'typescript-sort-keys', 'json', 'no-secrets'],
+  plugins: ['sort-keys-fix', 'json', 'no-secrets'],
   rules: {
     complexity: ['error', 20],
     'max-depth': ['error', 6],
