@@ -1,9 +1,10 @@
 // eslint-disable-next-line no-undef
 module.exports = {
   extends: ['plugin:json/recommended'],
-  plugins: ['sort-keys-fix', 'json', 'no-secrets'],
+  plugins: ['sort-keys-fix', 'json', 'no-secrets', 'deprecation'],
   rules: {
-    complexity: ['error', 20],
+    'complexity': ['error', 20],
+    'deprecation/deprecation': 'warn',
     'max-depth': ['error', 6],
     'max-lines': ['error', { max: 512, skipBlankLines: true }],
     'max-nested-callbacks': ['error', 6],
@@ -16,9 +17,9 @@ module.exports = {
     'no-tabs': ['error'],
     'no-unused-vars': 'off',
     'no-useless-escape': 'off',
-    quotes: [2, 'single', 'avoid-escape'],
+    'quotes': [2, 'single', 'avoid-escape'],
     'require-await': 'error',
-    semi: ['warn', 'never'],
+    'semi': ['warn', 'never'],
     'sort-keys': ['warn', 'asc', { caseSensitive: true, minKeys: 2, natural: false }],
     'sort-keys-fix/sort-keys-fix': 'warn',
   },
