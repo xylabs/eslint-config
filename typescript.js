@@ -6,6 +6,7 @@ module.exports = {
   parserOptions: {
     ecmsVersion: 2018,
     sourceType: 'module',
+    project: './tsconfig.json'
   },
   plugins: ['@typescript-eslint'],
   rules: {

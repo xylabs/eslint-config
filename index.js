@@ -1,9 +1,4 @@
 // eslint-disable-next-line no-undef
 module.exports = {
-  "extends": ['./typescript.js', './prettier.js', './import.js', './rules.js'],
-  "parserOptions": {
-    "ecmaVersion": 2020,
-    "sourceType": "module",
-    "project": "./tsconfig.json"
-  }
+  "extends": ['./typescript.js', './prettier.js', './import.js', './rules.js']
 }
