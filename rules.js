@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-undef
 module.exports = {
   extends: ['plugin:json/recommended'],
-  plugins: ['sort-keys-fix', 'json', 'no-secrets', 'deprecation'],
+  plugins: ['sort-keys-fix', 'json', 'no-secrets', '@delagen/deprecation'],
   rules: {
     'complexity': ['error', 20],
-    'deprecation/deprecation': 'warn',
+    '@delagen/deprecation/deprecation': 'warn',
     'max-depth': ['error', 6],
     'max-lines': ['error', { max: 512, skipBlankLines: true }],
     'max-nested-callbacks': ['error', 6],
