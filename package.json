@@ -26,7 +26,7 @@
     "typescript",
     "eslint"
   ],
-  "version": "2.0.31",
+  "version": "2.0.32",
   "main": "./index.js",
   "sideEffects": false,
   "scripts": {
