@@ -1,4 +1,4 @@
-[![logo][]](https://xyo.network)
+[![logo][]](https://xylabs.com)
 
 # eslint-config
 
