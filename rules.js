@@ -1,7 +1,6 @@
 // eslint-disable-next-line no-undef
 module.exports = {
-  extends: ['plugin:json/recommended'],
-  plugins: ['sort-keys-fix', 'json', 'no-secrets', '@delagen/deprecation'],
+  plugins: ['sort-keys-fix', 'no-secrets', '@delagen/deprecation'],
   rules: {
     'complexity': ['error', 20],
     '@delagen/deprecation/deprecation': 'warn',
