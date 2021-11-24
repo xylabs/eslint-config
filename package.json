@@ -51,7 +51,6 @@
     "url": "https://github.com/xylabs/eslint-config.git"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
     "deploy": "yarn version --patch && yarn publish ./",
     "fix": "eslint . --fix",
     "lint": "eslint .",

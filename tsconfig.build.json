@@ -1,9 +1,0 @@
-{
-  "compilerOptions": {
-    "lib": ["ESNext"],
-    "rootDir": "src"
-  },
-  "exclude": ["src/**/*.spec.ts"],
-  "extends": "./tsconfig.json",
-  "include": ["src/**/*.ts"]
-}

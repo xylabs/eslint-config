@@ -4,6 +4,7 @@
     "./prettier.json",
     "./import.json",
     "./rules.json",
-    "./json.json"
+    "./json.json",
+    "./markdown.json"
   ]
 }
