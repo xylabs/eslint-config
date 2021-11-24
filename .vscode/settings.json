@@ -6,7 +6,7 @@
     "**/.DS_Store": true,
     "**/node_modules": false,
     "**/build": true,
-    "**/dist": true,
+    "**/dist": false,
     "**/.webpack": true,
     "**/.serverless": true,
     "**/.rollup.cache": true
@@ -36,7 +36,7 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
-  "[jsonc]": {
+  "[json]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
 }

@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "./typescript.json",
+    "./prettier.json",
+    "./import.json",
+    "./rules.json",
+    "./json.json"
+  ]
+}
