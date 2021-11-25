@@ -4,29 +4,29 @@
   ],
   "overrides": [
     {
-      "files": ["*.md"],
+      "files": [
+        "*.md"
+      ],
       "parser": "markdown-eslint-parser",
       "rules": {
-        "prettier/prettier": [
+        "md/remark": [
           "error",
-          { "parser": "markdown" }
+          {
+            "plugins": [
+              "preset-lint-markdown-style-guide",
+              "frontmatter",
+              [
+                "lint-maximum-line-length",
+                240
+              ],
+              [
+                "lint-list-item-indent",
+                "tab-size"
+              ]
+            ]
+          }
         ]
       }
     }
-  ],
-  "rules": {
-    "import/no-internal-modules": [
-      "warn", {
-        "allow": [
-
-        ]
-      }
-    ],
-    "md/remark": [
-      "error",
-      {
-        "plugins": ["preset-lint-markdown-style-guide", "frontmatter", ["lint-maximum-line-length", false], ["lint-list-item-indent", false]]
-      }
-    ]
-  }
+  ]
 }
