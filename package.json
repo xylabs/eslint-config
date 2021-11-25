@@ -57,5 +57,5 @@
     "reinstall": "rm -r -f ./node_modules && rm -f ./yarn.lock && rm -f ./yarn-error.log && yarn install"
   },
   "sideEffects": false,
-  "version": "2.1.3"
+  "version": "2.1.4"
 }
