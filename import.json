@@ -21,6 +21,9 @@
         "maxDepth": 2
       }
     ],
+    "import/no-deprecated": [
+      "warn"
+    ],
     "import/no-internal-modules": [
       "warn"
     ],

@@ -1,11 +1,10 @@
 {
+  "$schema": "http://json.schemastore.org/eslintrc.json",
   "plugins": [
     "sort-keys-fix",
-    "no-secrets",
-    "@delagen/deprecation"
+    "no-secrets"
   ],
   "rules": {
-    "@delagen/deprecation/deprecation": "warn",
     "complexity": [
       "error",
       20
