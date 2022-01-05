@@ -1,9 +1,8 @@
 export = {
+  extends: ['plugin:import/errors', 'plugin:import/warnings', 'plugin:import/typescript'],
   overrides: [
     {
-      extends: ['plugin:import/errors', 'plugin:import/warnings', 'plugin:import/typescript'],
       files: ['*.ts', '*.tsx', '*.js', '*.jsx'],
-      plugins: ['import', 'simple-import-sort'],
       rules: {
         'import/namespace': ['warn'],
         'import/no-absolute-path': ['warn'],
@@ -24,4 +23,15 @@ export = {
       },
     },
   ],
+  plugins: ['import', 'simple-import-sort'],
+  settings: {
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
+    'import/resolver': {
+      typescript: {
+        alwaysTryTypes: true,
+      },
+    },
+  },
 }
