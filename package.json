@@ -24,8 +24,11 @@
   },
   "description": "ESLint Config used throughout XY Labs TypeScript/JavaScript libraries and react projects",
   "devDependencies": {
+    "@xylabs/ts-scripts": "^1.0.24",
+    "@xylabs/tsconfig": "^1.0.8",
     "eslint": "^8",
     "prettier": "^2",
+    "tslib": "^2.3.1",
     "typescript": "^4"
   },
   "homepage": "https://github.com/xylabs/eslint-config.git",
@@ -36,7 +39,7 @@
     "eslint"
   ],
   "license": "LGPL-3.0",
-  "main": "./index.json",
+  "main": "./dist/index.js",
   "name": "@xylabs/eslint-config",
   "peerDependencies": {
     "eslint": "^8",
@@ -51,11 +54,12 @@
     "url": "https://github.com/xylabs/eslint-config.git"
   },
   "scripts": {
+    "build": "tsc",
     "deploy": "yarn version --patch && yarn publish ./",
     "fix": "eslint . --fix",
     "lint": "eslint .",
     "reinstall": "rm -r -f ./node_modules && rm -f ./yarn.lock && rm -f ./yarn-error.log && yarn install"
   },
   "sideEffects": false,
-  "version": "2.1.9"
+  "version": "2.2.0"
 }
