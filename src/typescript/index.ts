@@ -27,11 +27,6 @@ export = {
         ],
         '@typescript-eslint/semi': ['warn', 'never'],
       },
-      settings: {
-        'import/parsers': {
-          '@typescript-eslint/parser': ['.ts', '.tsx'],
-        },
-      },
     },
   ],
   parser: '@typescript-eslint/parser',
@@ -39,5 +34,10 @@ export = {
     ecmaVersion: 2018,
     project: 'tsconfig.json',
     sourceType: 'module',
+  },
+  settings: {
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
   },
 }
