@@ -64,5 +64,5 @@
     "reinstall": "rimraf ./node_modules && rimraf ./yarn.lock && rimraf ./yarn-error.log && yarn install"
   },
   "sideEffects": false,
-  "version": "2.3.0"
+  "version": "2.3.1"
 }
