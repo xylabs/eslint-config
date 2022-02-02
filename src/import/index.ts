@@ -12,6 +12,7 @@ export = {
             maxDepth: 2,
           },
         ],
+        'import/no-default-export': ['warn'],
         'import/no-deprecated': ['warn'],
         'import/no-internal-modules': ['warn'],
         'import/no-named-as-default': ['warn'],
