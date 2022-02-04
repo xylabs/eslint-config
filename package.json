@@ -57,12 +57,12 @@
   },
   "scripts": {
     "build": "tsc",
-    "deploy": "yarn version --patch && yarn publish ./",
+    "deploy": "yarn patch && yarn npm publish ./",
     "fix": "eslint . --fix",
     "lint": "eslint .",
     "reinstall": "rimraf ./node_modules && rimraf ./yarn.lock && rimraf ./yarn-error.log && yarn install"
   },
   "sideEffects": false,
-  "version": "2.3.4",
+  "version": "2.3.5",
   "packageManager": "yarn@3.1.1"
 }
