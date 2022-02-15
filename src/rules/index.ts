@@ -15,7 +15,22 @@ export = {
     'no-restricted-imports': [
       'warn',
       {
-        paths: ['lodash', 'react-player', 'mapbox-gl', 'filepond', 'aos', 'react-icons', '.', '..'],
+        paths: [
+          'lodash',
+          'react-player',
+          'mapbox-gl',
+          'filepond',
+          'aos',
+          'react-icons',
+          '.',
+          '..',
+          '../..',
+          '../../..',
+          '../../../..',
+          '../../../../..',
+          '../../../../../..',
+          '../../../../../../..',
+        ],
       },
     ],
     'no-secrets/no-secrets': ['off'],
