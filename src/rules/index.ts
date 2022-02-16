@@ -1,7 +1,8 @@
 export = {
-  plugins: ['sort-keys-fix', 'no-secrets'],
+  plugins: ['deprecation', 'sort-keys-fix', 'no-secrets'],
   rules: {
     complexity: ['error', 20],
+    'deprecation/deprecation': ['warn'],
     'max-depth': ['error', 6],
     'max-lines': [
       'error',
