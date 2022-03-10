@@ -14,7 +14,12 @@ export = {
         ],
         'import/no-default-export': ['warn'],
         'import/no-deprecated': ['warn'],
-        'import/no-internal-modules': ['warn'],
+        'import/no-internal-modules': [
+          'warn',
+          {
+            allow: ['lodash/*'],
+          },
+        ],
         'import/no-named-as-default': ['warn'],
         'import/no-restricted-paths': ['warn'],
         'import/no-self-import': ['warn'],

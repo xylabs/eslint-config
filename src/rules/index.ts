@@ -19,7 +19,6 @@ export = {
         paths: [
           'lodash',
           'react-player',
-          'mapbox-gl',
           'filepond',
           'aos',
           'react-icons',
