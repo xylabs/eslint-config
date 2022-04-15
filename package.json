@@ -71,6 +71,6 @@
     "reinstall": "rimraf ./node_modules && rimraf ./yarn.lock && rimraf ./yarn-error.log && yarn install"
   },
   "sideEffects": false,
-  "version": "2.3.20",
+  "version": "2.3.22",
   "packageManager": "yarn@3.1.1"
 }
