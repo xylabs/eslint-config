@@ -14,8 +14,8 @@ export = {
       'warn',
       {
         bracketSpacing: true,
-        endOfLine: 'auto',
-        printWidth: 120,
+        endOfLine: 'lf',
+        printWidth: 180,
         semi: false,
         singleQuote: true,
         tabWidth: 2,
