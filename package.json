@@ -34,7 +34,7 @@
   },
   "description": "ESLint Config used throughout XY Labs TypeScript/JavaScript libraries and react projects",
   "devDependencies": {
-    "@types/node": "^17.0.24",
+    "@types/node": "^18.0.0",
     "@xylabs/tsconfig": "^1.0.12",
     "rimraf": "^3.0.2",
     "tslib": "^2.3.1"
