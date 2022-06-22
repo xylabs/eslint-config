@@ -4,7 +4,8 @@
 
 [![npm-badge][]][npm-link]
 
-> The ESLint configurations that are used across XY Labs Repos, including @xylabs, @xyo-network, and a few other scopes.
+> The ESLint configurations that are used across XY Labs Repos,
+> including @xylabs, @xyo-network, and a few other scopes.
 
 ## Table of Contents
 

@@ -1,4 +1,4 @@
-export = {
+module.exports = {
   overrides: [
     {
       extends: 'plugin:eslint-plugin-json-es/recommended',

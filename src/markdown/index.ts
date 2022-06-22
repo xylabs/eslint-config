@@ -1,4 +1,4 @@
-export = {
+module.exports = {
   extends: ['plugin:md/recommended'],
   overrides: [
     {
@@ -8,7 +8,7 @@ export = {
         'md/remark': [
           'error',
           {
-            plugins: ['preset-lint-markdown-style-guide', 'frontmatter', ['lint-maximum-line-length', 240], ['lint-list-item-indent', 'tab-size']],
+            plugins: ['preset-lint-markdown-style-guide', 'frontmatter', ['lint-list-item-indent', 'tab-size']],
           },
         ],
         'prettier/prettier': [

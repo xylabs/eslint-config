@@ -1,4 +1,4 @@
-export = {
+module.exports = {
   plugins: ['deprecation', 'sort-keys-fix', 'no-secrets'],
   rules: {
     complexity: ['error', 20],
