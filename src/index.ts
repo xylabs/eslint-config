@@ -5,6 +5,6 @@ import { cwd } from 'process'
 
 export = {
   extends: ['./typescript', './prettier', './import', './rules', './json'],
-  ignorePatterns: ['/dist', '/build', '/bin', '/node_modules', 'package.json', '/.yarn', '*.md'],
+  ignorePatterns: ['/dist', '/build', '/bin', '/node_modules', 'package.json', '/.yarn'],
   parserOptions: { tsconfigRootDir: cwd() },
 }
