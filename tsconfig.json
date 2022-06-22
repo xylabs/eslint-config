@@ -3,10 +3,7 @@
     "module": "CommonJS",
     "outDir": "./dist",
     "rootDir": "./src",
-    "target": "ES5",
-    "typeRoots": [
-      "./node_modules/@types"
-    ]
+    "target": "ES5"
   },
   "exclude": [
     "node_modules",

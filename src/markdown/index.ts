@@ -11,6 +11,13 @@ export = {
             plugins: ['preset-lint-markdown-style-guide', 'frontmatter', ['lint-maximum-line-length', 240], ['lint-list-item-indent', 'tab-size']],
           },
         ],
+        'prettier/prettier': [
+          'off',
+          // Important to force prettier to use "markdown" parser - otherwise it wouldn't be able to parse *.md files.
+          // You also can configure other options supported by prettier here - "prose-wrap" is
+          // particularly useful for *.md files
+          { parser: 'markdown' },
+        ],
       },
     },
   ],

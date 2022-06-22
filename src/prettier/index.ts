@@ -1,13 +1,5 @@
 export = {
   extends: ['plugin:prettier/recommended'],
-  overrides: [
-    {
-      files: ['*.md'],
-      rules: {
-        'prettier/prettier': 'off',
-      },
-    },
-  ],
   plugins: ['prettier'],
   rules: {
     'prettier/prettier': [
