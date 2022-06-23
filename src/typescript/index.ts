@@ -2,7 +2,7 @@ module.exports = {
   extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
   overrides: [
     {
-      files: ['*.ts', '*.tsx'],
+      files: ['*.ts*', '*.d.ts*'],
       plugins: ['@typescript-eslint'],
       rules: {
         '@typescript-eslint/explicit-module-boundary-types': 'off',
@@ -38,7 +38,7 @@ module.exports = {
   },
   settings: {
     'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx'],
+      '@typescript-eslint/parser': ['*.d.ts*', '*.ts*'],
     },
   },
 }

@@ -35,7 +35,7 @@
   "description": "ESLint Config used throughout XY Labs TypeScript/JavaScript libraries and react projects",
   "devDependencies": {
     "@types/node": "^18.0.0",
-    "@xylabs/tsconfig": "^1.0.13",
+    "@xylabs/tsconfig": "^1.0.14",
     "rimraf": "^3.0.2",
     "tslib": "^2.4.0"
   },
@@ -71,6 +71,6 @@
     "reinstall": "rimraf ./node_modules && rimraf ./yarn.lock && rimraf ./yarn-error.log && yarn install"
   },
   "sideEffects": false,
-  "version": "2.3.28",
+  "version": "2.3.30",
   "packageManager": "yarn@3.1.1"
 }
